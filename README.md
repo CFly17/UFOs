@@ -8,24 +8,29 @@ In conjunction with Dana, a data journalist writing about UFOs in her hometown o
 * Software: Visual Studio Code (version 1.63.2)
 
 ## Results
-* How someone might use this new webpage, you ask?
-- Walk thru the process of using the search criteria. 
-- Use images of your webpage during the filtering process to support your explanation.
+How someone might use this new webpage, you ask?
 
-![school_summary_before](https://user-images.githubusercontent.com/87148145/150451592-3ebf5350-a9bc-40cb-8871-a49a5c7bbcf9.PNG)
+To start, let's take a look at some of the main elements of the page: 
 
-...and the new data after the 9th grade scores were changed:
 
-![school_summary_after](https://user-images.githubusercontent.com/87148145/150453090-a5a1daca-5d6e-4af4-94c1-baa51865bc96.png)
+![site1](https://user-images.githubusercontent.com/87148145/159185390-b4e13215-f63c-442f-a387-32684c1e9617.PNG)
 
-* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-If the scores for 9th graders were accounted for, Thomas High would have ranked 8th, behind Holden High School and above Bailey High School; however, after adjusting for the 9th grade errors, Thomas High placed #2 among the best performing schools.
-* How does replacing the ninth-grade scores affect the following:
-The majority of all of the other data remained largely unaffected, or only slightly so. With about 1,600 students, Thomas High is a medium-sized school. Their data contributed to the highest overall passing percentage among this group, at 91%:
 
-![schools_by_size](https://user-images.githubusercontent.com/87148145/150454812-b683c6e2-d32b-4098-9fac-e60374812065.PNG)
 
-Since math and reading scores for 9th grades were erased, the other grades remain at about 83% passing rate for math and reading. As Thomas High is in the second-highest bucket for spending, the school-by-school overall passing percentage remained mostly unchanged. But it is also noteworthy that charter schools (like Thomas High) outperformed the district schools. 
+- Once we navigate past the site title, we immediately see a introspective description of the data that introduces the importance of documenting and exploring UFO sightings. 
+
+- Next, we see the table data located below this introductory information about the data. **Keep your eyes peeled on this one!** It will change soon enough.
+
+- Now we get to the good stuff: the filter itself! After typing in data here, the user can hit the return button to see an updated list of UFO sightings. In the example below, the user searches by spacecraft shape, typing 'fireball' in the 'Shape' field and seeing all seven results for the odd-shaped UFOs, including dates of the sightings and other relevant data:
+
+
+![site2](https://user-images.githubusercontent.com/87148145/159185525-a80023a9-5999-4231-b470-b2c2dd79c2d8.PNG)
+
 
 ## Summary
-To summarize, several changes occurred once the 'bad' 9th grader test results data was cleaned. Noteably, the percentage of students passing math and passing reading shot up dramatically -- nearly 30% each! Furthermore, the overall passing percentage increased by about 25%. As a result of these increases, Thomas High went from 8th place overall passing amongh the other schools, to the #2 spot. 
+Dana is ecstatic about this website -- it even changes its display dynamically depending on whether the user is on a mobile phone or laptop! 
+
+However, there are a couple draw-backs. 
+- One is that there is no 'search' button, so we are relying on the user to intuitively press this on their keyboard. If they are on a mobile device, they may in fact be out-of-luck since most browsers do not include a 'return' key within the keyboard interface. We recommend the data journalists consider adding this if they are looking to host the data long-term. 
+- Another drawback of this interface is that there is no way obvious way to store search results and compare across filters, aside from screenshots. Perhaps it would prove useful to add a button with an 'id' field for each sighting object so that users can store these as a list or individual objects for further investigation. 
+- Finally, let's get some pictures added to the sighting objects. What's a chevron-shaped UFO look like, anyway?!
